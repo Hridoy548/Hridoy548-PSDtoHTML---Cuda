@@ -1,0 +1,68 @@
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (max-width: 400px) {
+    /* Protfolio Area Start */
+    .section_area__box.protfolio {
+        margin-top: 3rem;
+    }
+    .section_area__colombut button {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 0.4375rem;
+    }
+    /* Protfolio Area Stop */
+}
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (max-width: 767px) {
+    /* Footer Area Start */
+    .footer_sec__mas a {
+        display: block;
+        margin: 0.3125rem 0;
+    }
+    /* Footer Area Stop */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 992px) {
+    /* Home Area Start */
+    .header_area__nav ul {display: none;}
+    .slicknav_menu ul {display: block;}
+    .slicknav_menu .slicknav_menutxt {display: none;}
+    .slicknav_nav {
+        top: 5.625rem;
+        box-shadow: 0 0.25rem 0.1875rem -0.125rem black;
+    }
+    .slicknav_btn  {
+        background: none;
+        margin: 0 0 0 0.1875rem;
+        padding: 0;
+    }
+    .slicknav_menu .slicknav_icon-bar {font-size: 1.25rem;}
+    .slicknav_nav ul li a {
+        display: inline-block;
+    }
+    /* Home Area Stop */
+    /* Protfolio Area Start */
+    .section_area--about {
+        padding: 7.563rem 0rem 4.0625rem 0;
+    }
+    .section_area__boxcess--abo, .section_area__boxcess--abo.plus {
+        margin-bottom: 4.0625rem;
+    }
+    /* Protfolio Area Stop */
+    /* Footer Area Start */
+    .footer_sec__mas a {
+        margin: 0 0.625rem 0.3125rem;
+    }
+    /* Footer Area Stop */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .slicknav_menu {display: none;}
+    .header_area__nav ul {display: block;}
+    dl, ol, ul {
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+    }
+}

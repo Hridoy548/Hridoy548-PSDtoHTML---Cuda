@@ -1,0 +1,277 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {color: #fff;}
+p {font-size: 1.125rem;}
+h1, h2, h4, h6 {font-weight: bold;}
+/* Header Section Start */
+.header_area {
+    background-color: #87509C;
+    padding: 3.438rem 0rem 9.063rem 0rem;
+    color: #fff;
+}
+.header_area__top {
+    margin-bottom: 9.063rem;
+}
+.header_area__iconn h2 {
+    font-style: italic;
+}
+.header_area__nav ul {
+    list-style: none;
+    text-align: right;
+}
+.ul_row {justify-content: flex-end;}
+.header_area__nav ul li {
+    display: inline-block;
+}
+.header_area__nav ul li a {padding: 0.3125rem 0.625rem;}
+.header_area__nav ul li a:hover {
+    background-color: #643a79;
+    border-radius: 0.313rem;
+}
+/* Slick Nav Start*/
+.header_area__nav .slicknav_menu {
+    background: none;
+}
+.slicknav_nav {
+    position: absolute;
+    display: block;
+    width: 100%;
+    left: 0px;
+    z-index: 3;
+    background: #87509C;
+}
+.slicknav_nav ul {
+    text-align: center;
+    margin: 0 !important;
+}
+.slicknav_nav ul li {
+    display: block;
+}
+.slicknav_nav ul li a:hover {
+    color: #fff;
+}
+/* Slick Nav Start*/
+.header_area__heading {
+    margin-bottom: 3.75rem;
+    font-size: 1.625rem;
+}
+.header_area__button button {
+    border: none;
+    background-color: #EB7D4B;
+    padding: 0.625rem 3.125rem;
+    border-radius: 0.313rem;
+    border-bottom: solid #c86a40 0.188rem;
+}
+/* Header Section Stop */
+/* Service Section Start */
+.section_area--service {
+    background: #17c2a4;
+    padding: 7.563rem 0 4.0625rem 0;
+    color: white;
+}
+.section_area__title h2 {
+    font-size: 2.5rem;
+    position: relative;
+    margin-bottom: 1.25rem;
+}
+.section_area__title h2::after {
+    content: "";
+    position: absolute;
+    background: #15AE94;
+    height: 0.375rem;
+    width: 5.938rem;
+    bottom: -0.313rem;
+    left: 50%;
+    margin-left: -3.125rem;
+    border-radius: 0.313rem;
+}
+.section_area__title p {
+    font-size: 1.125rem;
+}
+.section_area__box {
+    margin-top: 5rem;
+}
+.section_area__pic {
+    height: 8.625rem;
+    margin-bottom: 1.5625rem;
+}
+.section_area__disclaimer h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0.625rem;
+}
+.section_area__disclaimer p {
+    margin-bottom: 4.0625rem;
+}
+/* Service Section Stop */
+/* Team Area Start */
+.section_area--team {
+    background: #E7F1F8;
+    padding: 7.563rem 0 3.4375rem 0;
+    color: #3c4761;
+}
+.section_area__title.team h2::after {
+    background: #CBDCE7;
+}
+.team_info h6 {
+    margin: 0.625rem 0 0 0;
+}
+.team_info span {
+    color: #30bae7;
+    display: inline-block;
+    margin-bottom: 1.563rem;
+    font-size: 1.125rem;
+}
+.team_info p {
+    margin-bottom: 0.938rem;
+}
+.section_area__picon img {
+    margin: 0rem 0.156rem;
+}
+.section_area__picon {margin-bottom: 4.6875rem;}
+/* Team Area Stop */
+/* Skills Area Start */
+.section_area--skills {
+    padding: 7.563rem 0 4.0625rem 0;
+    color: #3c4761;
+}
+.section_area__box.skills img {
+    margin-bottom: 1.25rem;
+}
+.section_area__box.skills h4 {margin-bottom: 4.0625rem;}
+/* Skills Area Stop */
+/* Protfolio Area Start */
+.section_area--protfolio {
+    padding: 7.563rem 0rem 8.063rem 0;
+    background-color: #ffdd99;
+    color: #393939;
+}
+.section_area__title.protfolio .section_area__colomdes h2::after {
+    background-color: #e5c37f;
+}
+.section_area__colomdes p {
+    margin-bottom: 1.875rem;
+}
+.proftofolio_button {
+    font-size: 1.125rem;
+    background-color: #ebc985;
+    border: none;
+    padding: 0.313rem 1.25rem;
+    margin-left: 0.313rem;
+    border-radius: 0.313rem;
+    cursor: pointer;
+}
+.proftofolio_button:hover {
+    background-color: #fff;
+}
+.proftofolio_button:focus{
+    background-color: #fff;
+}
+.prot_info p {
+    margin: 0.3125rem 0 3.75rem 0;
+    font-size: 1.125rem;
+}
+.section_area__button button {
+    font-size: 1.125rem;
+    color: #fff;
+    background-color: #17c2a4;
+    padding: 0.625rem 2.5rem;
+    border-radius: 0.313rem;
+    border: none;
+    border-bottom: solid #14a58c 0.188rem;
+}
+/* Protfolio Area Stop */
+/* About Area Start */
+.section_area--about {
+    padding: 7.563rem 0rem 8.063rem 0;
+    background-color: #d74680;
+    color: #fff;
+}
+.section_area__title.about .section_area__colomdesc h2::after {
+    background-color: #b73c6d;
+}
+.section_area__boxcess--abo {
+    margin-bottom: 9.063rem;
+}
+.section_area__boxcess--abo.plus {
+    margin-bottom: 0rem;
+}
+.section_area__boxcess--abo .section_area__bpcon .section_area__pi {
+    font-size: 1.125rem;
+    font-style: italic;
+    color: #fff;
+}
+.section_area__boxcess--abo .section_area__bpcon h4 {
+    margin: 1.563rem 0 0 0;
+}
+.section_area__boxcess--abo .section_area__bpcon .section_area__pii {
+    font-size: 1.125rem;
+    color: #ffdd99;
+}
+/* About Area Stop */
+/* Contatc Area Start */
+.section_area--contact {
+    padding: 7.563rem 0rem 8.063rem 0;
+    background-color: #3c5499;
+    color: #fff;
+}
+.section_area__title.contact .section_area__cp h2::after {
+    background-color: #273a71;
+}
+.section_area__cf {
+    margin-top: 4.375rem;
+}
+.section_area__in1, .section_area__in2, .section_area__in3 {
+    background-color: #273a71;
+    color: #fff;
+    border: none;
+    border-radius: 0.313rem;
+    padding-left: 0.938rem;
+    margin-bottom: 1.25rem;
+    box-sizing: border-box;
+}
+.section_area__in1, .section_area__in2 {
+    height: 2.5rem;
+}
+.section_area__in3 {
+    margin-bottom: 3.438rem;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-size: 1.125rem;
+    color: white;
+    opacity: 1; /* Firefox */
+}
+.section_area__cf button {
+    background-color: #30bae7;
+    border: none;
+    font-size: 1.125rem;
+    color: white;
+    padding: 0.625rem 1.875rem;
+    border-radius: 0.313rem;
+    border-bottom: solid #299ec5 0.188rem;
+}
+/* Contatc Area Stop */
+/* Footer Area Start */
+.footer_sec {
+    background: #344b8e;
+    padding: 1.719rem 0rem;
+    text-align: center;
+}
+.footer_sec__mas a {
+    font-size: 1.5rem;
+    display: inline-block;
+    margin: 0 1.719rem;
+}
+.footer_sec__mas a:hover {
+    color: #30bae7;
+}
+/* Footer Area Stop */
