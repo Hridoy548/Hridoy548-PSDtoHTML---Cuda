@@ -30,7 +30,7 @@
     .slicknav_menu .slicknav_menutxt {display: none;}
     .slicknav_nav {
         top: 5.625rem;
-        box-shadow: 0 0.25rem 0.1875rem -0.125rem black;
+        box-shadow: 0 0.25rem 0.1875rem -0.125rem #535353;
     }
     .slicknav_btn  {
         background: none;
